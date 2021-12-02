@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  form.example input[type=text] 
+  {
+    font-size: 17px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    height: 30px;
+    
+  }  
+  form.example button {
+    border: 1px solid rgb(197, 187, 187);
+    border-radius: 0 2px 2px 0;
+    height:30px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+ .add{
+     font-size: 20px;
+     margin-left: 45%;
+ }
+ .sub{
+     font-size: 20px;
+     margin-left: 40%;
+ }
+ .btn button{
+     color: white;
+     font-size: 15px;
+     background-color: rgb(91, 91, 241);
+     margin-left: 47%;
+     border: none;
+     width: 15%;
+     height: 15%;
+     
+     padding: 15px 9px;
+ }
+ a{
+     text-decoration: none;
+ }
+ .pic{
+     padding: 0px;
+     margin-left: 0px;
+     
+ }
+ h1{
+     font-size: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content:space-around;
+     align-items: center;
+     width: 20px;
+     height: 10px;
+     margin-left: 37%;
+     margin-top: 40px;
+ }
+.qus{
+    text-decoration: none;
+    padding-top: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+.li{
+    padding: 20px;
+    display: flex;
+    width: 800px;
+    border-bottom: 2px solid #ccc;
+
+}
+.other{
+    padding-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
